@@ -1,0 +1,642 @@
+@media (max-width: 767px) {
+    h1{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 18px !important;
+    }
+
+    h3{
+        font-size: 16px !important;
+    }
+
+    h4{
+        font-size: 14px !important;
+    }
+
+    h5{
+        font-size: 12px !important;
+    }
+
+    p{
+        font-size: 10px !important;
+    }
+
+    li{
+        font-size: 10px !important;
+    }
+
+    button{
+        font-size: 12px !important;
+    }
+
+    .card-kelola-koperasi {
+        width: 280px !important;
+    }
+
+    .icon-kelola-koperasi{
+        width: 280px !important;
+    }
+
+    .social-media{
+        font-size: 14px !important;
+    }
+
+    .social-media-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .location-footer p{
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .card-solusi-akutansi{
+        width: 100% !important;
+        height: 50px !important;
+    }
+    .item-solusi-akutansi-kiri{
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .item-solusi-akutansi-kanan{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-text{
+        max-height: 30% !important;
+        text-align: center;
+        background: white !important;
+    }
+
+    .text-banner{
+        width: 100% !important;
+    }
+
+    .text-banner h2{
+        padding-bottom: 0px !important;
+    }
+    
+    .text-banner p{
+        padding-bottom: 0px !important;
+    }
+
+    .item-kelola-koperasi {
+        flex-direction: column;
+    }
+
+    .card-kelola-koperasi {
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .icon-aman-dan-terpercaya{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-aman-dan-terpercaya h2{
+        text-align: center;
+    }
+
+    .text-manajemen-koperasi-kiri{
+        text-align: left !important;
+    }
+    
+    .text-manajemen-koperasi-kiri li {
+        position: relative;
+        padding-right: 30px;
+    }
+    
+    .text-manajemen-koperasi-kiri li {
+        position: relative;
+        padding-left: 30px;
+    }
+    
+    .text-manajemen-koperasi-kiri li::before {
+        content: "✅";
+        position: absolute;
+        left: 0;
+    }
+
+    .text-manajemen-koperasi-kiri h3, .text-manajemen-koperasi-kanan h3{
+        text-align: center !important;
+    }
+
+    .text-manajemen-koperasi-kanan .button, .text-manajemen-koperasi-kiri .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-transparansi{
+        flex-direction: column !important;
+    }
+
+    .button-transparansi .btn {
+        padding: 10px 15px !important;
+    }
+
+    .link-footer{
+        font-size: 8px !important;
+    }
+
+    .item-solusi-akutansi{
+        width: 101%;
+    }
+}
+
+@media (max-width: 1282px) {
+
+    .solusi-akutansi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-solusi-akutansi{
+        width: 101%;
+    }
+    /* .item-solusi-akutansi-kanan{
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .item-solusi-akutansi-kiri{
+        display: flex;
+        justify-content: center !important;
+    } */
+}
+
+.navbar{
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 0px;
+}
+
+.navbar .active{
+    color: #127369 !important;
+}
+
+.section{
+    padding-top: 100px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.9) 50%, rgb(255, 255, 255, 0) 70%);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-banner h2{
+    padding-bottom: 20px;
+}
+
+.text-banner p{
+
+    padding-bottom: 20px;
+}
+
+.text-banner{
+    width: 50%;
+}
+
+.judul{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.kelola-koperasi{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(18, 115, 105, 0.3));
+}
+
+.item-kelola-koperasi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-kelola-koperasi{
+    width: 360px;
+    margin: 20px;
+}
+
+.card-kelola-koperasi {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-kelola-koperasi img{
+    width: 100px;
+}
+
+.text-kelola-koperasi{
+    margin-right: 5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.text-kelola-koperasi h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-kelola-koperasi p{
+    font-size: 14px;
+}
+
+.aman-dan-terpercaya{
+    display: flex;
+    align-items: center;
+}
+
+.aman-dan-terpercaya img{
+    width: 80%;
+    border-radius: 60px 30px 60px 30px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.text-aman-dan-terpercaya{
+    text-align: justify;
+    padding: 20px;
+}
+
+.icon-nabung-dari-sekarang img{
+    width: 100%;
+}
+
+.accordion-button{
+    color: black;
+    background-color: #B1CECB;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #B1CECB;
+    font-weight: 600;
+}
+
+.accordion-collapse{
+    color: black;
+}
+
+.item-manajemen-koperasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.icon-manajemen-koperasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-manajemen-koperasi img{
+    width: 80%;
+}
+
+.text-manajemen-koperasi-kiri{
+    text-align: right;
+}
+
+.text-manajemen-koperasi-kiri li {
+    position: relative;
+    padding-right: 30px;
+}
+
+.text-manajemen-koperasi-kiri li {
+    position: relative;
+    padding-right: 30px;
+}
+
+.text-manajemen-koperasi-kanan li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.text-manajemen-koperasi-kiri li::before {
+    content: "✅";
+    position: absolute;
+    right: 0;
+}
+
+.text-manajemen-koperasi-kanan li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+
+.text-manajemen-koperasi-kanan .btn, .text-manajemen-koperasi-kiri .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 1000px;
+}
+
+/* .solusi-akutansi{
+    background: #127369;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.judul-solusi-akutansi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    color: white;
+}
+
+.judul-solusi-akutansi p{
+    text-align: justify;
+}
+
+.judul-solusi-akutansi a{
+    color: white;
+}
+
+.item-solusi-akutansi{
+    overflow: hidden;
+    height: 400px;
+    padding: 0%
+}
+
+.card-solusi-akutansi{
+    background: white;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    animation: scrollUp 20s linear infinite;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-solusi-akutansi::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white 50%, rgb(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.card-solusi-akutansi .text-card{
+    font-size: 14px;
+    font-weight: 600;
+    width: 70%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.card-solusi-akutansi img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.item-solusi-akutansi-kanan{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-480%);
+    }
+} */
+
+.solusi-akutansi{
+    background-color: #127369;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.icon-solusi-akutansi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-solusi-akutansi img{
+    width: 100%;
+}
+
+.card-solusi-akutansi{
+    position: relative;
+    background: white;
+    height: 100px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-solusi-akutansi img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card-solusi-akutansi p{
+    z-index: 2;
+    font-weight: 500;
+    width: 60%;
+}
+
+.card-solusi-akutansi::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white 50%, rgb(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.item-solusi-akutansi-kanan{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-transparansi{
+    background: #B1CECB;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.item-transparansi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-transparansi img{
+    max-width: 100%;
+}
+
+.text-transparansi{
+    text-align: center;
+}
+
+.text-transparansi p{
+    text-align: justify;
+}
+
+.button-transparansi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-transparansi .btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.button-transparansi .btn.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.icon-footer{
+    display: flex;
+}
+
+.social-media-footer a{
+    padding: 5px;
+}
+
+.link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.section-paket{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(18, 115, 105, 0.3));
+    padding-top: 70px;
+}
+
+.card-paket{
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.card-paket:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-paket h2{
+    text-align: center;
+    font-weight: 800;
+    color: #127369;
+}
+
+.text-paket h3{
+    text-align: center;
+    font-weight: 600;
+    color: #127369;
+}
+
+.text-paket p{
+    text-align: center;
+    color: #127369;
+}
+
+.text-paket .icon-paket{
+    text-align: center !important;
+    color: #127369;
+}
+
+.item-paket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-paket li::before {
+    content: "✅";
+    padding: 10px;
+    left: 0;
+}
+
+.text-paket h3, .text-paket h2, .text-paket p, .text-paket ul {
+    margin: 0;
+}
